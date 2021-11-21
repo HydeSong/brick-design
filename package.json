@@ -18,7 +18,9 @@
     "build": "yarn build:css && yarn build:js",
     "lint": "vue-cli-service lint",
     "build:js": "webpack --config ./webpack.components.js",
-    "build:css": "npx gulp sass"
+    "build:css": "npx gulp sass",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -28,17 +30,23 @@
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/compiler-sfc": "^3.2.22",
     "babel-eslint": "^10.1.0",
+    "css-loader": "^6.5.1",
+    "esbuild-loader": "^2.16.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "file-loader": "^6.2.0",
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^5.0.0",
+    "mini-css-extract-plugin": "^2.4.5",
     "node-sass": "^6.0.1",
     "sass": "^1.43.4",
     "sass-loader": "5.0.1",
-    "vue-loader": "^15.9.8",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^16.8.3",
+    "vuepress": "^2.0.0-beta.27",
     "webpack-cli": "^4.9.1"
   },
   "eslintConfig": {
