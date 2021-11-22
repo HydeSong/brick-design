@@ -1,10 +1,13 @@
 <template>
-  <div class="brick-card" :style="width ? {width: width + 'px'} : {}" >
-    <div class="brick-card-img" :style="imgHeight ? {height: imgHeight + 'px'} : {}">
-      <img :src="imgSrc" alt="img">
+  <div class="brick-card" :style="width ? { width: width + 'px' } : {}">
+    <div
+      class="brick-card-img"
+      :style="imgHeight ? { height: imgHeight + 'px' } : {}"
+    >
+      <img :src="imgSrc" alt="img" />
     </div>
     <div v-if="summary" class="brick-card-summary">
-      {{summary}}
+      {{ summary }}
     </div>
     <div v-else class="brick-card-summary">
       <slot></slot>
