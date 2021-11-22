@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "yarn build:css && yarn build:js",
+    "build": "yarn build:js && yarn build:css",
     "lint": "vue-cli-service lint",
     "build:js": "webpack --config ./webpack.components.js",
     "build:css": "npx gulp sass",
