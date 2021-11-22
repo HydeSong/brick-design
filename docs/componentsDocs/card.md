@@ -2,12 +2,12 @@
 
 ### 示例
 
-<b-card img-src="5ff529550925a7bd05400304.png" summary="数据中台之数据汇聚整合，消除数据孤岛" />
+<brick-card img-src="5ff529550925a7bd05400304.png" summary="数据中台之数据汇聚整合，消除数据孤岛" />
 
 ### 代码
 
 ```html
-<b-card
+<brick-card
   img-src="5ff529550925a7bd05400304.png"
   summary="数据中台之数据汇聚整合，消除数据孤岛"
 />
