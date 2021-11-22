@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <demo />
+  <brick-demo />
   <brick-card
     img-src="5ff529550925a7bd05400304.png"
     summary="数据中台之数据汇聚整合，消除数据孤岛"

@@ -29,8 +29,8 @@ createApp(App).use(BrickDesign).mount("#app");
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import "../components/css/demo.scss";
-import Demo from "../components/lib/demo/index";
+import "brick-design/dist/css/demo.scss";
+import Demo from "brick-design/lib/demo/index";
 
 createApp(App).use(Demo).mount("#app");
 ```
