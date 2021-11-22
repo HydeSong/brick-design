@@ -1,11 +1,11 @@
 <template>
-  <h1 class="brick-demo">demo</h1>
+  <h1 class="b-demo">demo</h1>
 </template>
 
 <script>
 
 export default {
-    name: "brick-demo"
+    name: "b-demo"
 };
 </script>
 

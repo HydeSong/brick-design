@@ -1,15 +1,15 @@
 <template>
-  <div class="brick-card" :style="width ? { width: width + 'px' } : {}">
+  <div class="b-card" :style="width ? { width: width + 'px' } : {}">
     <div
-      class="brick-card-img"
+      class="b-card-img"
       :style="imgHeight ? { height: imgHeight + 'px' } : {}"
     >
       <img :src="imgSrc" alt="img" />
     </div>
-    <div v-if="summary" class="brick-card-summary">
+    <div v-if="summary" class="b-card-summary">
       {{ summary }}
     </div>
-    <div v-else class="brick-card-summary">
+    <div v-else class="b-card-summary">
       <slot></slot>
     </div>
     <slot name="footer"></slot>
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "brick-card",
+  name: "b-card",
   props: {
     with: {
       type: Number,

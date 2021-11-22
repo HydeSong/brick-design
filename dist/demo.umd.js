@@ -212,7 +212,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\n// run
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    name: \"brick-demo\"\n});\n\n\n//# sourceURL=webpack://brick-design/./components/lib/demo/src/index.vue?./node_modules/vue-loader/dist??ref--6-0");
+eval("__webpack_require__.r(__webpack_exports__);\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    name: \"b-demo\"\n});\n\n\n//# sourceURL=webpack://brick-design/./components/lib/demo/src/index.vue?./node_modules/vue-loader/dist??ref--6-0");
 
 /***/ }),
 
@@ -224,7 +224,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n\n\n/* harmony default export
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nconst _hoisted_1 = { class: \"brick-demo\" }\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (Object(vue__WEBPACK_IMPORTED_MODULE_0__[\"openBlock\"])(), Object(vue__WEBPACK_IMPORTED_MODULE_0__[\"createElementBlock\"])(\"h1\", _hoisted_1, \"demo\"))\n}\n\n//# sourceURL=webpack://brick-design/./components/lib/demo/src/index.vue?./node_modules/vue-loader/dist/templateLoader.js??ref--5!./node_modules/vue-loader/dist??ref--6-0");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nconst _hoisted_1 = { class: \"b-demo\" }\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (Object(vue__WEBPACK_IMPORTED_MODULE_0__[\"openBlock\"])(), Object(vue__WEBPACK_IMPORTED_MODULE_0__[\"createElementBlock\"])(\"h1\", _hoisted_1, \"demo\"))\n}\n\n//# sourceURL=webpack://brick-design/./components/lib/demo/src/index.vue?./node_modules/vue-loader/dist/templateLoader.js??ref--5!./node_modules/vue-loader/dist??ref--6-0");
 
 /***/ }),
 
