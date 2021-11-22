@@ -1,6 +1,6 @@
 {
   "name": "brick-design",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Brick Design UI 组件库",
   "main": "dist/index.umd.js",
   "keywords": [
