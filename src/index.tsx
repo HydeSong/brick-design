@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import Button from "./Button/index";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Button type="primary">Click</Button>
+    <Button type="primary" className="my-btn">
+      Click
+    </Button>
   </React.StrictMode>
 );
 
